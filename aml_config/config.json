@@ -1,0 +1,14 @@
+{
+    "datastore_name": "YOUR_DATASTORE_NAME",
+    "dataset_name": "YOUR_DATASET_NAME",
+    "experiment_name" : "YOUR_EXPERIMENT_NAME",
+    "compute_cluster_name" : "YOUR_COMPUTE_CLUSTER_NAME",
+    "model_name": "YOUR_MODEL_NAME",
+    "model_description": "SOME_DESCRIPTION_IS_HELPFUL",
+    "env_name": "YOUR_ENVIRONMENT_NAME",
+    "model_path": "PATH_TO_YOUR_MODEL",
+    "label_path": "PATH_TO_YOUR_ARTIFACTS",
+    "source_directory": "code",
+    "test_folder": "test",
+    "deploy_folder": "deploy"
+}

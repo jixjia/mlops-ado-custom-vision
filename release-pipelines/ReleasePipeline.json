@@ -1,0 +1,426 @@
+{
+    "source": 2,
+    "revision": 5,
+    "description": null,
+    "createdBy": {
+        "displayName": "Jixin Jia",
+        "url": "https://spsprodwus21.vssps.visualstudio.com/A39e04bed-39d0-44ce-bdda-dfaab6019153/_apis/Identities/d1f2b663-d9da-6f0b-8003-30c36169434b",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/jixinjia/_apis/GraphProfile/MemberAvatars/aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi"
+            }
+        },
+        "id": "d1f2b663-d9da-6f0b-8003-30c36169434b",
+        "uniqueName": "jixinjia@microsoft.com",
+        "imageUrl": "https://dev.azure.com/jixinjia/_apis/GraphProfile/MemberAvatars/aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi",
+        "descriptor": "aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi"
+    },
+    "createdOn": "2022-04-04T15:08:16.573Z",
+    "modifiedBy": {
+        "displayName": "Jixin Jia",
+        "url": "https://spsprodwus21.vssps.visualstudio.com/A39e04bed-39d0-44ce-bdda-dfaab6019153/_apis/Identities/d1f2b663-d9da-6f0b-8003-30c36169434b",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/jixinjia/_apis/GraphProfile/MemberAvatars/aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi"
+            }
+        },
+        "id": "d1f2b663-d9da-6f0b-8003-30c36169434b",
+        "uniqueName": "jixinjia@microsoft.com",
+        "imageUrl": "https://dev.azure.com/jixinjia/_apis/GraphProfile/MemberAvatars/aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi",
+        "descriptor": "aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi"
+    },
+    "modifiedOn": "2022-04-04T15:39:22.953Z",
+    "isDeleted": false,
+    "lastRelease": {
+        "id": 4,
+        "name": "Release-3",
+        "artifacts": [],
+        "_links": {},
+        "description": "Triggered by cogservice-mlops 20220404.13.",
+        "releaseDefinition": {
+            "id": 2,
+            "projectReference": null,
+            "_links": {}
+        },
+        "createdOn": "2022-04-04T16:00:25.060Z",
+        "createdBy": {
+            "displayName": "Jixin Jia",
+            "url": "https://spsprodwus21.vssps.visualstudio.com/A39e04bed-39d0-44ce-bdda-dfaab6019153/_apis/Identities/d1f2b663-d9da-6f0b-8003-30c36169434b",
+            "_links": {
+                "avatar": {
+                    "href": "https://dev.azure.com/jixinjia/_apis/GraphProfile/MemberAvatars/aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi"
+                }
+            },
+            "id": "d1f2b663-d9da-6f0b-8003-30c36169434b",
+            "uniqueName": "jixinjia@microsoft.com",
+            "imageUrl": "https://dev.azure.com/jixinjia/_apis/GraphProfile/MemberAvatars/aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi",
+            "descriptor": "aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi"
+        }
+    },
+    "variables": {},
+    "variableGroups": [
+        2,
+        3
+    ],
+    "environments": [
+        {
+            "id": 2,
+            "name": "QA Environment",
+            "rank": 1,
+            "owner": {
+                "displayName": "Jixin Jia",
+                "url": "https://spsprodwus21.vssps.visualstudio.com/A39e04bed-39d0-44ce-bdda-dfaab6019153/_apis/Identities/d1f2b663-d9da-6f0b-8003-30c36169434b",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/jixinjia/_apis/GraphProfile/MemberAvatars/aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi"
+                    }
+                },
+                "id": "d1f2b663-d9da-6f0b-8003-30c36169434b",
+                "uniqueName": "jixinjia@microsoft.com",
+                "imageUrl": "https://dev.azure.com/jixinjia/_apis/GraphProfile/MemberAvatars/aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi",
+                "descriptor": "aad.ZDFmMmI2NjMtZDlkYS03ZjBiLTgwMDMtMzBjMzYxNjk0MzRi"
+            },
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 4
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 1
+                }
+            },
+            "deployStep": {
+                "id": 5
+            },
+            "postDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 6
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 2
+                }
+            },
+            "deployPhases": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": 0
+                        },
+                        "agentSpecification": {
+                            "identifier": "ubuntu-18.04"
+                        },
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": []
+                        },
+                        "queueId": 54,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": 1,
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "environment": {},
+                            "taskId": "33c63b11-352b-45a2-ba1b-54cb568a29ca",
+                            "version": "0.*",
+                            "name": "Use Python 3.8",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "versionSpec": "3.8",
+                                "addToPath": "true",
+                                "architecture": "x64"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "Bash Script",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "filePath",
+                                "filePath": "$(System.DefaultWorkingDirectory)/_cogservice-mlops/mlops-cogservice/environment_setup/install_requirements.sh",
+                                "arguments": "",
+                                "script": "# Write your commands here\n\n# Use the environment variables input below to pass secret variables to this script",
+                                "workingDirectory": "$(System.DefaultWorkingDirectory)/_cogservice-mlops/mlops-cogservice/environment_setup",
+                                "failOnStderr": "false",
+                                "bashEnvValue": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+                            "version": "2.*",
+                            "name": "Login to Azure",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "script": "az login --service-principal -u $(spidentity) -p $(spsecret) --tenant $(sptenant)\n",
+                                "workingDirectory": "",
+                                "failOnStderr": "false"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+                            "version": "2.*",
+                            "name": "Deploy model to ACI with scoring logic",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "script": "python aml_service/50-ReleaseToACI.py",
+                                "workingDirectory": "$(System.DefaultWorkingDirectory)/_cogservice-mlops/mlops-cogservice",
+                                "failOnStderr": "false"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+                            "version": "2.*",
+                            "name": "Test the image on ACI",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "retryCountOnTaskFailure": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "script": "python aml_service/60-TestWebservice.py",
+                                "workingDirectory": "$(System.DefaultWorkingDirectory)/_cogservice-mlops/mlops-cogservice",
+                                "failOnStderr": "false"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "name": "ReleaseStarted",
+                    "conditionType": 1,
+                    "value": ""
+                }
+            ],
+            "executionPolicy": {
+                "concurrencyCount": 1,
+                "queueDepthCount": 0
+            },
+            "schedules": [],
+            "currentRelease": {
+                "id": 4,
+                "url": "https://vsrm.dev.azure.com/jixinjia/e78f3eea-656c-490c-84c0-5885d3ff7b29/_apis/Release/releases/4",
+                "_links": {}
+            },
+            "retentionPolicy": {
+                "daysToKeep": 90,
+                "releasesToKeep": 3,
+                "retainBuild": true
+            },
+            "processParameters": {},
+            "properties": {
+                "LinkBoardsWorkItems": {
+                    "$type": "System.String",
+                    "$value": "False"
+                }
+            },
+            "preDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "environmentTriggers": [],
+            "badgeUrl": "https://vsrm.dev.azure.com/jixinjia/_apis/public/Release/badge/e78f3eea-656c-490c-84c0-5885d3ff7b29/2/2"
+        }
+    ],
+    "artifacts": [
+        {
+            "sourceId": "e78f3eea-656c-490c-84c0-5885d3ff7b29:22",
+            "type": "Build",
+            "alias": "_cogservice-mlops",
+            "definitionReference": {
+                "artifactSourceDefinitionUrl": {
+                    "id": "https://dev.azure.com/jixinjia/_permalink/_build/index?collectionId=e28a216b-afb2-40d8-8771-245addbf8298&projectId=e78f3eea-656c-490c-84c0-5885d3ff7b29&definitionId=22",
+                    "name": ""
+                },
+                "defaultVersionBranch": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionSpecific": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionTags": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionType": {
+                    "id": "latestType",
+                    "name": "Latest"
+                },
+                "definition": {
+                    "id": "22",
+                    "name": "cogservice-mlops"
+                },
+                "definitions": {
+                    "id": "",
+                    "name": ""
+                },
+                "IsMultiDefinitionType": {
+                    "id": "False",
+                    "name": "False"
+                },
+                "project": {
+                    "id": "e78f3eea-656c-490c-84c0-5885d3ff7b29",
+                    "name": "cogservice-mlops"
+                },
+                "repository": {
+                    "id": "",
+                    "name": ""
+                }
+            },
+            "isPrimary": true,
+            "isRetained": false
+        }
+    ],
+    "triggers": [
+        {
+            "artifactAlias": "_cogservice-mlops",
+            "triggerConditions": [],
+            "triggerType": 1
+        },
+        {
+            "artifactAlias": "_cogservice-mlops",
+            "triggerConditions": [
+                {
+                    "targetBranch": "master",
+                    "tags": []
+                }
+            ],
+            "pullRequestConfiguration": {
+                "useArtifactReference": false,
+                "codeRepositoryReference": {
+                    "systemType": 1,
+                    "repositoryReference": {
+                        "pullRequestRepositoryId": {
+                            "value": "5fc5d3c8-3cf4-45e4-a1f6-d4dad84dee1e",
+                            "displayValue": "cogservice-mlops"
+                        },
+                        "pullRequestProjectId": {
+                            "value": "e78f3eea-656c-490c-84c0-5885d3ff7b29",
+                            "displayValue": "cogservice-mlops"
+                        }
+                    }
+                }
+            },
+            "statusPolicyName": "",
+            "triggerType": 6
+        }
+    ],
+    "releaseNameFormat": "Release-$(rev:r)",
+    "tags": [],
+    "properties": {
+        "DefinitionCreationSource": {
+            "$type": "System.String",
+            "$value": "ReleaseImport"
+        },
+        "IntegrateBoardsWorkItems": {
+            "$type": "System.String",
+            "$value": "False"
+        },
+        "IntegrateJiraWorkItems": {
+            "$type": "System.String",
+            "$value": "false"
+        }
+    },
+    "id": 2,
+    "name": "ReleasePipeline",
+    "path": "\\",
+    "projectReference": null,
+    "url": "https://vsrm.dev.azure.com/jixinjia/e78f3eea-656c-490c-84c0-5885d3ff7b29/_apis/Release/definitions/2",
+    "_links": {
+        "self": {
+            "href": "https://vsrm.dev.azure.com/jixinjia/e78f3eea-656c-490c-84c0-5885d3ff7b29/_apis/Release/definitions/2"
+        },
+        "web": {
+            "href": "https://dev.azure.com/jixinjia/e78f3eea-656c-490c-84c0-5885d3ff7b29/_release?definitionId=2"
+        }
+    }
+}

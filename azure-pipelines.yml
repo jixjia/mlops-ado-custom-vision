@@ -1,0 +1,83 @@
+# MLOps for Custom Vision Azure DevOps & MLOps Build Pipeline
+# Author: Jixin Jia (Gin)
+# Version: 1.0
+# Date: 2022/04/04
+
+# This build pipeline references following secret variables 
+# sp_username:  Service principal application (client) ID
+# sp_password: Service principal secret
+# sp_tenantid: Azure tenant Id
+# subscription_id: Azure subscription id
+
+pool:
+  vmImage: 'Ubuntu 18.04'
+
+variables:
+- group: AzureKeyVaultSecrets
+- group: PipelineVariables
+
+trigger:
+- master
+- releases/*
+- develop
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.8'
+    architecture: 'x64'
+
+- task: Bash@3
+  displayName: 'Install Requirements'
+  inputs:
+    targetType: filePath
+    filePath: 'environment_setup/install_requirements.sh'
+    workingDirectory: 'environment_setup'
+
+- script: | 
+   az login --service-principal -u $(spidentity) -p $(spsecret) --tenant $(sptenant)
+  displayName: 'Login to Azure'
+
+- script: |
+   sed -i 's#"subscription_id": "<DO_NOT_CHANGE>"#"subscription_id": "$(subscriptionid)"#g' aml_config/aml_config.json
+  displayName: 'Update subscription value'
+
+- script: 'python aml_service/00-CheckPrerequisites.py'
+  displayName: 'Check dependencies and Azure ML SDK version'
+
+- script: 'python aml_service/01-SetWorkspace.py'
+  displayName: 'Set or create Workspace'
+
+- script: 'python aml_service/02-AttachAmlCluster.py'
+  displayName: 'Attach or create AML Compute Cluster'
+
+- script: 'python aml_service/03-SetExperiment.py'
+  displayName: 'Set or create an Experiment'
+
+- script: 'python aml_service/04-GetModelArtifacts.py'
+  displayName: 'Retrieve the latest model artifacts'
+
+- script: 'python aml_service/05-BuildEnvironment.py'
+  displayName: 'Build environment'
+
+- script: 'python aml_service/06-AutoTest.py'
+  displayName: 'Test the model against defined datasets'
+
+- script: 'python aml_service/07-RegisterModel.py'
+  displayName: 'Register the model'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    Contents: '**'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    ArtifactName: $(artifact_name)
+    publishLocation: 'container'
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+    TargetPath: '$(Build.ArtifactStagingDirectory)'
+

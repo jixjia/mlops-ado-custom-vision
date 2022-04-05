@@ -1,0 +1,6 @@
+{
+    "subscription_id": "<DO_NOT_CHANGE>",
+    "resource_group": "YOUR_RESOURCE_GROUP_NAME",
+    "workspace_name": "YOUR_WORKSPACE_NAME",
+    "location": "YOUR_RESOURCE_LOCATION"
+}

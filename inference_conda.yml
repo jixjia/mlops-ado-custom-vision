@@ -1,0 +1,16 @@
+
+dependencies:
+- python=3.8.1
+- pip:
+  - azureml-dataset-runtime[pandas,fuse]
+  - azureml-defaults
+  - opencv-python-headless==4.5.4.60
+  - tensorflow==2.3.1
+  - numpy==1.18.5
+  - pandas==1.1.4
+  - imutils==0.5.3
+  - Pillow==8.0.1
+  - requests==2.24.0
+  - matplotlib==3.2.2
+  - urllib3==1.25.11  
+  - requests==2.24.0
